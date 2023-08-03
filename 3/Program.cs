@@ -1,6 +1,6 @@
-﻿// Задайте массив вещественных чисел.
+﻿
 //  Найдите разницу между максимальным и минимальным элементов массива.
-// [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
+// [3, 4, 1, 77, 65] => 77 - 1 = 76
 
 double GetMax(double[] numbers)
 {
@@ -28,7 +28,7 @@ double GetMin(double[] numbers)
     return min;
 }
 
-double[] numbers = { 3.22, 4.2, 1.15, 77.15, 65.2 };
+double[] numbers = { 3, 4, 1, 77, 65 };
 double min = GetMin(numbers);
 double max = GetMax(numbers);
 double difference = max - min;
